@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Check All the Buttons in Grooton Website and take screenshot",
+        "description": "",
+        "id": "grooton-website-task;check-all-the-buttons-in-grooton-website-and-take-screenshot",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17142357800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should open Grooton web url in chrome Browser",
+            "match": {
+              "location": "Stepdefinition.userShouldOpenGrootonWebUrlInChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3300336000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should no home page take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldNoHomePageTakeScreenshot()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3058463100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on Services button and take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnServicesButtonAndTakeScreenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2776809200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click on Opensource button and take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnOpensourceButtonAndTakeScreenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19461802500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click on Blog button and take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnBlogButtonAndTakeScreenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-ED9GMH4F\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\DORABABU\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c07476d8c5f839b34248623bda39949d\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Team\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdefinition.Stepdefinition.userShouldClickOnTeamButtonAndTakeScreenshot(Stepdefinition.java:53)\r\n\tat ✽.user should click on Team button and take screenshot(src/test/resources/Features/Grooton.feature:9)\r\n",
+              "duration": 12423930700,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user should click on Team button and take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnTeamButtonAndTakeScreenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should click on careers and take scrrenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnCareersAndTakeScrrenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user should click on Contant and take screenshot",
+            "match": {
+              "location": "Stepdefinition.userShouldClickOnContantAndTakeScreenshot()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Grooton Website Task",
+    "description": "",
+    "id": "grooton-website-task",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Grooton.feature",
+    "tags": []
+  }
+]
